@@ -1,0 +1,6 @@
+C:\Users\aminz\source\PaypalNet\src\Paypal.Net\Paypal.Net.Sdk\bin\Debug\netstandard2.0\Paypal.Net.Sdk.deps.json
+C:\Users\aminz\source\PaypalNet\src\Paypal.Net\Paypal.Net.Sdk\bin\Debug\netstandard2.0\Paypal.Net.Sdk.dll
+C:\Users\aminz\source\PaypalNet\src\Paypal.Net\Paypal.Net.Sdk\obj\Debug\netstandard2.0\Paypal.Net.Sdk.csprojAssemblyReference.cache
+C:\Users\aminz\source\PaypalNet\src\Paypal.Net\Paypal.Net.Sdk\obj\Debug\netstandard2.0\Paypal.Net.Sdk.AssemblyInfoInputs.cache
+C:\Users\aminz\source\PaypalNet\src\Paypal.Net\Paypal.Net.Sdk\obj\Debug\netstandard2.0\Paypal.Net.Sdk.AssemblyInfo.cs
+C:\Users\aminz\source\PaypalNet\src\Paypal.Net\Paypal.Net.Sdk\obj\Debug\netstandard2.0\Paypal.Net.Sdk.csproj.CoreCompileInputs.cache
