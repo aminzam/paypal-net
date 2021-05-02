@@ -12,7 +12,7 @@ namespace Paypal.Net.Sdk.DependencyInjection {
 
   public static class ServiceCollectionExtensions {
 
-    public static IServiceCollection AddSubscription(this IServiceCollection services) {
+    public static IServiceCollection AddPaypalApi(this IServiceCollection services) {
 
       services.AddScoped<AuthenticationApi>();
       services.AddScoped<CatalogProductApi>();
@@ -41,7 +41,6 @@ namespace Paypal.Net.Sdk.DependencyInjection {
       services.AddSingleton<WebHookValidator>();
       services.AddSingleton<CertificateManager>();
       services.AddSingleton<PaypalResolver>();
-
 
       return services;
     }

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paypal.Net.Sdk", "Paypal.Net.Sdk\Paypal.Net.Sdk.csproj", "{DAD3F738-8C56-4336-A0F4-95CA2EC20D6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paypal.Net.Sdk", "src\Paypal.Net.Sdk\Paypal.Net.Sdk.csproj", "{DAD3F738-8C56-4336-A0F4-95CA2EC20D6E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paypal.Net.Sdk.Tests", "Paypal.Net.Sdk.Tests\Paypal.Net.Sdk.Tests.csproj", "{3703376D-150F-4D44-89F0-35DDBC9CD4D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paypal.Net.Sdk.Tests", "tests\Paypal.Net.Sdk.Tests\Paypal.Net.Sdk.Tests.csproj", "{3703376D-150F-4D44-89F0-35DDBC9CD4D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
