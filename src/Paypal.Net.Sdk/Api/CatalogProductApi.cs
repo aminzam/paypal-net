@@ -12,7 +12,7 @@ namespace Paypal.Net.Sdk.Api {
   /// </remarks>
   public class CatalogProductApi {
 
-    private readonly PaypalRestApiClient _paypalRestApiClient;
+    private readonly IPaypalRestApiClient _paypalRestApiClient;
 
     private const string ApiUrl = "/v1/catalogs/products";
 
@@ -20,7 +20,7 @@ namespace Paypal.Net.Sdk.Api {
     /// Default constructor.
     /// </summary>
     /// <param name="paypalRestApiClient">PayPal client object that provides HTTP access.</param>
-    public CatalogProductApi(PaypalRestApiClient paypalRestApiClient) {
+    public CatalogProductApi(IPaypalRestApiClient paypalRestApiClient) {
 
       _paypalRestApiClient = paypalRestApiClient;
     }

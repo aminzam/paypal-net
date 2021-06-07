@@ -14,10 +14,10 @@ namespace Paypal.Net.Sdk.DependencyInjection {
 
     public static IServiceCollection AddPaypalApi(this IServiceCollection services) {
 
-      services.AddScoped<AuthenticationApi>();
+      services.AddScoped<IAuthenticationApi, AuthenticationApi>();
       services.AddScoped<CatalogProductApi>();
       services.AddScoped<BillingPlanApi>();
-      services.AddScoped<PaypalRestApiClient>();
+      services.AddScoped<IPaypalRestApiClient, PaypalRestApiClient>();
       services.AddScoped<NotificationWebhooksApi>();
       services.AddScoped<BillingSubscriptionApi>();
       services.AddScoped<PaypalMessageProcessor>();

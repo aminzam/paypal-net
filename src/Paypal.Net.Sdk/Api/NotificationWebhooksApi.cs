@@ -12,7 +12,7 @@ namespace Paypal.Net.Sdk.Api {
   /// </remarks>
   public class NotificationWebhooksApi {
 
-    private readonly PaypalRestApiClient _paypalRestApiClient;
+    private readonly IPaypalRestApiClient _paypalRestApiClient;
 
     private const string ApiUrl = "/v1/notifications/webhooks";
     
@@ -20,7 +20,7 @@ namespace Paypal.Net.Sdk.Api {
     /// Default constructor.
     /// </summary>
     /// <param name="paypalRestApiClient">PayPal client object that provides HTTP access.</param>
-    public NotificationWebhooksApi(PaypalRestApiClient paypalRestApiClient) {
+    public NotificationWebhooksApi(IPaypalRestApiClient paypalRestApiClient) {
 
       _paypalRestApiClient = paypalRestApiClient;
     }

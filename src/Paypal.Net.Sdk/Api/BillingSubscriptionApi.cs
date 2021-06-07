@@ -14,13 +14,13 @@ namespace Paypal.Net.Sdk.Api {
 
     private const string ApiUrl = "/v1/billing/subscriptions";
 
-    private readonly PaypalRestApiClient _paypalRestApiClient;
+    private readonly IPaypalRestApiClient _paypalRestApiClient;
     
     /// <summary>
     /// Default constructor.
     /// </summary>
     /// <param name="paypalRestApiClient">PayPal client object that provides HTTP access.</param>
-    public BillingSubscriptionApi(PaypalRestApiClient paypalRestApiClient) {
+    public BillingSubscriptionApi(IPaypalRestApiClient paypalRestApiClient) {
 
       _paypalRestApiClient = paypalRestApiClient;
     }
