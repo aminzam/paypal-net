@@ -47,4 +47,6 @@ Paypal's official SDK is not being maintained anymore ([Home · paypal/PayPal-NE
  - Improve code coverage
  - Add an example asp.net project
  - Create a nuget package and publish
+ - Improve unit testability by introducing interfaces for API classes
  - Update this readme with more examples and list of API classes
+ - Add webhook examples
